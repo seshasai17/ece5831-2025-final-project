@@ -1,1 +1,11 @@
-# ece5831-2025-final-project
+We implemented Driver drowsiness detection on MRL eye dataset and trained it using two models they are: 1. Custom CNN model
+                 2. MobileNetV2 model
+These implementations are present in Driver_Drowsiness_Detection.ipynb and these models are saved as cnn_drowsiness_model.h5 and mobilenet_drowsiness_moel.h5 which are used for live feed using camera implementation.
+For implementing Live camera feed open live_demo.py and enter command in terminal 
+"python live_demo.py --model_path path_of_your_model" this will be explained more clearly in my Live_demo video.
+
+Link to my Project Report: https://docs.google.com/document/d/1MEa8FiZiks_Vfkz7_CWaYoarxQOa3R2x/edit?usp=sharing&ouid=115345483230042030468&rtpof=true&sd=true
+
+Link to my Dataset: https://drive.google.com/file/d/11T0wBTmZo0dVIvsymxTxlE5ph3-iasv4/view?usp=sharing
+
+Link to my Live Project Demo: https://youtu.be/qT6mhP43m9U
